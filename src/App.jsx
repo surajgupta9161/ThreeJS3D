@@ -1,11 +1,14 @@
 import './App.css'
 import Dog from './components/Dog'
-
+import { Canvas } from '@react-three/fiber'
 function App() {
 
   return (
     <>
-      <Dog />
+      <Canvas>
+        <Dog />
+
+      </Canvas>
     </>
   )
 }
